@@ -11,10 +11,10 @@ os.system('clear')
 # )
 
 connection = server.create_server_connection(
-    host='localhost',
+    host='172.212.217.151',
     database='db_challenge_formulae',
-    password='1529dev',
-    root='root'
+    password='1529Dev@',
+    root='root_py'
 )
 
 if connection:
